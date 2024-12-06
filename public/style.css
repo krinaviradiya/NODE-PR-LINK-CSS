@@ -1,0 +1,248 @@
+.nav-item a{
+    color: black;
+    margin-left: 30px;
+}
+.navbar-nav{
+    /* border: 1px solid; */
+    margin-left: 50px;
+}
+.nav-item a{
+    color: black;
+    text-decoration: none;
+}
+a::before{
+    content: " ";
+    height: 2px;
+    width: 0px;
+    position: relative;
+    top: 30px;
+    left: 50%;
+    right: 50%;
+    transition: 1s;
+    color: black;
+    background-color: #FC0254;
+    z-index: 1;
+    margin: 0;
+    display: block;
+}
+a:hover::before{
+width: 100%;
+left: 0;
+right: 0;
+}
+.nav-item a:hover{
+color: #FC0254;
+}
+.off{
+    height: 30px;
+    /* border: 1px solid; */
+    margin-right: 30px;
+}
+.btn1{
+    color: white;
+    border: none;
+    background-color: #DB3F06;
+    margin-left: 30px;
+    height: 30px;
+    border-radius: 50px;
+    font-size:large;
+    height: 40px;
+}
+#s1{
+    /* border: 1px solid; */
+    background-image: url(img/2.png);
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+#sc1{
+    /* border: 1px solid; */
+    position: relative;
+    left: 120px;
+}
+#sc1 h1{
+    position: relative;
+    top: 110px;
+    color: black;
+    font-weight: bolder;
+}
+#sc1 p{
+    position: relative;
+    top: 110px;
+}
+.btn2{
+    color: white;
+    border: none;
+    background-color: #DB3F06;
+    height: 30px;
+    width: 30%;
+    border-radius: 50px;
+    font-size:large;
+    height: 40px;
+    position: relative;
+    top: 110px;
+}
+#i1{
+    /* border: 1px solid; */
+    position: absolute;
+    top: 55%;
+    left: -30px;
+}
+.swiper {
+    width: 70%;
+    height: 100%;
+    /* border: 1px solid; */
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+   background-color: #FFF5F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid; */
+    border-bottom-right-radius: 50px;
+  
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 90%;
+    height: 100%;
+    object-fit: cover;
+    /* border: 1px solid; */
+    position: relative;
+    left: 15px;
+    top: 10px;
+    border-bottom-right-radius: 50px;
+  }
+  .btn3{
+    color: white;
+    border: none;
+    width: 50%;
+    background-color: #DB3F06;
+    height: 30px;
+    border-radius: 50px;
+    font-size:large;
+    height: 40px;
+    position: relative;
+    top: -5px;
+  }
+  #sw1 h4{
+    position: relative;
+    top: 10px;
+  }
+  #sw1 p{
+    position: relative;
+    top: 10px;
+  }
+  .col-4{
+    /* border: 1px solid; */
+  }
+  .btn4{
+    color: white;
+    border: none;
+    background-color: #DB3F06;
+    height: 30px;
+    width: 30%;
+    border-radius: 50px;
+    font-size:large;
+    height: 40px;
+}
+.tx{
+    position: relative;
+    top: 50px;
+}
+#our{
+    /* border: 1px solid; */
+    text-align: center;
+}
+#our:hover{
+    background-color: #fff;
+}
+#our h5:hover{
+    color: #DB3F06;
+}
+#sy{
+    /* border: 1px solid; */
+}
+#b1{
+    background-image: url(img/9.png);
+    background-repeat: no-repeat;
+    height: 300px;
+    
+}
+#b1 i{
+    display: flex;
+    justify-content: center;
+   position: relative;
+   top: 50%;
+   left:45% ;
+   font-size: 40px;
+   color: #fff;
+   display: none;
+}
+#b2{
+    background-image: url(img/10.png);
+    background-repeat: no-repeat;
+    height: 300px;
+}
+#b2 i{
+    display: flex;
+    justify-content: center;
+   position: relative;
+   top: 50%;
+   left:45% ;
+   font-size: 40px;
+   color: #fff;
+   display: none;
+}
+#b3{
+    background-image: url(img/11.png);
+    background-repeat: no-repeat;
+    height: 300px;
+}
+#b3 i{
+    display: flex;
+    justify-content: center;
+   position: relative;
+   top: 50%;
+   left:45% ;
+   font-size: 40px;
+   color: #fff;
+   display: none;
+}
+#b4{
+    background-image: url(img/12.png);
+    background-repeat: no-repeat;
+    height: 300px;
+}
+#b4 i{
+    display: flex;
+    justify-content: center;
+   position: relative;
+   top: 50%;
+   left:45% ;
+   font-size: 40px;
+   color: #fff;
+   display: none;
+}
+#f1 i{
+    color: #DB3F06;
+    border: 1px solid #DB3F06;
+    background-color: #DB3F06;
+    color: #fff;
+    font-size: 20px;
+    margin-left: 20px;
+    border-radius: 3px;
+}
+#f2 ul{
+    position: relative;
+    left: -25px;
+    top: 20px;
+}
+#f2 ul:hover{
+   color: #DB3F06;
+   text-decoration: underline;
+}
